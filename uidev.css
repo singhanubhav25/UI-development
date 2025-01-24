@@ -1,0 +1,708 @@
+body{
+    background-color: rgb(204, 204, 204);
+}
+
+#navbar{
+    background-color: rgb(6, 94, 94);
+    display: block;
+    margin: 0;
+    padding: 3rem;
+}
+
+#topSection{
+    background-color: white;
+    margin-left: 6rem;
+    margin-right: 88px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.flexi{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pName{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(48, 47, 47);
+    
+}
+
+.btn{
+    align-items: right;
+    margin-left: auto;
+    margin-right: 25px;
+    background-color: orange;
+    color: white;
+    padding-left: 25px;
+    padding-right: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+.fa{
+    align-items: right;
+    margin-right: 20px;
+    
+    
+}
+
+.hinje{
+    display: flex;
+
+}
+
+.place{
+    margin-right: 65px;
+    color: gray;
+}
+
+.cancel{
+    margin-right: 20px;
+    color: rgb(182, 33, 33);
+    background-color: rgb(255, 242, 242);
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+}
+
+.pause{
+    color: rgb(238, 184, 9);
+    background-color: rgb(250, 240, 207);
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.first{
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(6, 94, 94);
+    color: rgb(6, 94, 94);
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 0.9rem;
+}
+
+.second{
+    border: solid;
+    border-width: 1px;
+    margin-left: 10px;
+    border-color: rgb(6, 94, 94);
+    color: rgb(6, 94, 94);
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 0.9rem;
+}
+
+.third{
+    border: solid;
+    border-width: 1px;
+    margin-left: 10px;
+    border-color: rgb(6, 94, 94);
+    color: rgb(6, 94, 94);
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 0.9rem;
+}
+
+.fourth{
+    border: solid;
+    border-width: 1px;
+    margin-left: 10px;
+    background-color: rgb(6, 94, 94);
+    color: white;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 0.9rem;
+}
+
+.fifth{
+    border: solid;
+    border-width: 1px;
+    margin-left: 10px;
+    border-color: rgb(6, 94, 94);
+    color: rgb(6, 94, 94);
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 0.9rem;
+}
+
+#middle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.middleboxone{
+    background-color: white;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.middleboxTwo{
+    background-color: white;
+    margin-right: 88px;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 90%;
+}
+
+
+.one{
+    padding: 30px 680px 30px 30px;
+    background-color: rgb(6, 94, 94);
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.a{
+    margin: 10px 10px 10px 40px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(48, 47, 47);
+}
+
+.b{
+    margin: 10px 200px 10px auto;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(48, 47, 47);
+}
+
+.c{
+    margin: 10px 255px 10px auto;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(48, 47, 47);
+}
+
+.d{
+    margin: 10px 10px 0px 40px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: rgb(48, 47, 47);
+}
+
+.e{
+    margin: 10px 166px 0px 40px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: rgb(48, 47, 47);
+    
+}
+.f{
+    margin: 3px 10px 0px 40px;
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.g{
+    margin: 10px 305px 0px 40px;
+    font-size: 0.8rem;
+    color: gray;
+    
+}
+
+.h{
+    margin: 10px 230px 0px 40px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: rgb(48, 47, 47);
+    
+}
+
+.i{
+    margin: 10px 246px 0px 40px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: rgb(48, 47, 47);
+    
+}
+
+.j{
+    margin: 10px 287px 0px 40px;
+    font-size: 0.8rem;
+    color: gray;
+    
+}
+
+.k{
+    margin: 10px 337px 0px 40px;
+    font-size: 0.8rem;
+    color: gray;
+    
+}
+
+.l{
+    margin: 3px 10px 0px 40px;
+    font-size: 0.8rem;
+    color: gray;
+    text-wrap: wrap;
+}
+
+
+.m{
+    margin: 10px 348px 0px 40px;
+    font-size: 0.8rem;
+    color: gray;
+    padding-bottom: 2rem;
+    
+}
+
+.line{
+    background-color: rgb(6,94,94);
+    opacity: 0.2;
+    margin: 0px 40px 0px 40px;
+    height: 1px;
+}
+
+
+.three{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.attach{
+    font-size: 1.3rem;
+    margin: 15px 0px 20px 15px;
+}
+
+.add{
+    margin: 15px 10px 20px 200px;
+    background-color: rgb(6,94,94);
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 30px;
+}
+
+.image{
+    width: 15px;
+    height: 20px;
+    margin: 17px 10px 0px 40px;
+
+}
+
+.test{
+    color: rgb(48, 47, 47);
+    margin-top: 17px;
+}
+
+.date{
+    color: rgb(48, 47, 47);
+    margin: 17px 25px 0px auto;
+    font-size: 0.8rem;
+}
+
+.mail{
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.time{
+    font-size: 0.8rem;
+    color: rgb(48, 47, 47);
+    margin: 0px 25px 10px 100px;
+}
+
+#low{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lowboxone{
+    background-color: white;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lowboxtwo{
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 6rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 70%;
+}
+
+.flexing{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    margin: 10px 0px 10px 15px;
+    font-size: 1.3rem;
+
+}
+
+.add2{
+    margin: 10px 15px 10px 610px;
+    background-color: rgb(6,94,94);
+    padding: 5px 15px 5px 15px;
+    border-radius: 30px;
+    color: white;
+}
+
+.mainGrid{
+    display: grid;
+    grid-template-columns: 170px 680px;
+}
+
+.pic{
+    grid-row: 1/6;
+    grid-column: 1/2;
+    margin: 40px 10px 50px 50px;
+    width: 50px;
+    height: 480px;
+}
+
+.col1{
+    padding: 25px 30px 0px 30px;
+    margin: 10px 15px 0px 15px;
+    border-radius: 30px;
+    height: 70px;
+    background-color: rgb(237, 237, 237);
+}
+
+.t1{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.d1{
+    font-size: 0.8rem;
+}
+
+.protext{
+    font-size: 0.7rem;
+    color: rgb(48, 47, 47);
+}
+
+.time1{
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.write{
+    font-size: 0.7rem;
+    color: gray;
+}
+
+.flexing2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment{
+    margin: 10px 0px 10px 10px;
+    font-size: 1.3rem;
+
+}
+
+.add3{
+    margin: 10px 15px 10px 208px;
+    background-color: rgb(6,94,94);
+    padding: 5px 15px 5px 15px;
+    border-radius: 30px;
+    color: white;
+}
+
+.t2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.photo{
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+}
+
+.fa{
+    width: 2px;
+    height: 10px;
+}
+
+
+.n1{
+    margin: 10px 0px 5px 10px ;
+    color: rgb(48, 47, 47);
+}
+
+.n2{
+    margin: 0px 30px 5px auto;
+    color: white;
+    background-color: rgb(31, 160, 160);
+    padding: 10px 15px 1px 15px;
+    border-radius: 30px;
+    font-size: 0.8rem;
+}
+
+.n3{
+    margin-left: 44px;
+    padding: 0;
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.n4{
+    margin-left: 44px;
+    margin-top: 7px;
+    padding: 0;
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.n5{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.na1{
+
+    margin: 10px 15px 10px 0px;
+    border: solid 1px;
+    border-color: rgb(31, 160, 160);
+    padding: 5px 20px 8px 20px;
+    color: gray;
+    border-radius: 30px;
+    font-size: 0.8rem;
+}
+
+.na2{
+    margin: 10px 15px 10px 0px;
+    border: solid 1px;
+    color: white;
+    background-color: rgb(31, 160, 160);
+    padding: 5px 20px 8px 20px;
+    border-radius: 30px;
+    font-size: 0.8rem;
+}
+
+.na3{
+    margin: 10px 40px 10px 0px;
+    border: solid 1px;
+    color: gray;
+    border-color: rgb(31, 160, 160);
+    padding: 5px 20px 8px 20px;
+    border-radius: 30px;
+    font-size: 0.8rem;
+}
+
+
+#lower{
+    display: flex;
+}
+
+.lowerboxone{
+    background-color: white;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    padding: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lowerboxtwo{
+    background-color: white;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flexing3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.assign{
+    font-size: 1.3rem;
+    margin: 10px 60px 10px 10px;
+}
+
+.add4{
+    margin: 10px 10px 10px 30px;
+    background-color: rgb(6,94,94);
+    padding: 5px 15px 5px 15px;
+    border-radius: 30px;
+    color: white;
+
+}
+
+.t3{
+    display: flex;
+}
+
+.photo2{
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.photo3{
+    margin-left: auto;
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+}
+
+
+.n6{
+    margin: 10px 45px 5px 10px ;
+    color: rgb(48, 47, 47);
+}
+
+.n7{
+    font-size: 0.8rem;
+    color: gray;
+    margin-left: 54px;
+}
+
+.n8{
+    margin: 0px 53px 0px auto;
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.photo4{
+    margin-right: 3px;
+    margin-left: 20px;
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+}
+.n9{
+    margin: 10px 67px 5px 10px ;
+    color: rgb(48, 47, 47);
+}
+
+#lowest{
+    margin-left: 6rem;
+    margin-right: 33rem;
+    background-color: white;
+    border-radius: 1rem;
+    margin-bottom: 8rem;
+    padding-bottom: 30px;
+}
+
+.flexi2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.addon{
+    margin: 25px 0px 10px 30px;
+    font-size: 1.3rem;
+
+}
+
+.add5{
+    margin: 25px 30px 10px auto;
+    background-color: rgb(6,94,94);
+    padding: 5px 15px 5px 15px;
+    border-radius: 30px;
+    color: white;
+}
+
+.t4{
+    display: flex;
+}
+
+.l1{
+    margin-left: 180px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.l2{
+    margin-left: 120px;
+    font-size: 1.2rem;
+}
+
+.ins{
+    margin-left: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.l3{
+    margin-top: 15px;
+    margin-left: 97px;
+    color: rgb(48, 47, 47);
+}
+
+.l4{
+    margin-top: 15px;
+    margin-left: 82px;
+    margin-bottom: 15px;
+    color: rgb(48, 47, 47);
+}
+
+.l5{
+    color: rgb(48, 47, 47);
+    margin-top: 12px;
+    margin-left: 60px;
+    margin-bottom: 15px;
+    background-color: rgb(6,94,94);
+    padding: 5px 15px 5px 15px;
+    border-radius: 30px;
+    color: white;
+}
